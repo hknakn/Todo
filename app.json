@@ -23,7 +23,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "expo.ios.package"
+    },
+    "android": {
+      "package" : "expo.android.package"
     }
   }
 }
